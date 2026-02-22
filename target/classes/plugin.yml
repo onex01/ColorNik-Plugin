@@ -1,0 +1,22 @@
+name: ColorNickPlugin
+version: 2.0.0
+main: ru.one.plugin.ColorNickPlugin
+api-version: 1.21
+description: Плагин для изменения цвета ника игроков
+author: One
+commands:
+  colornick:
+    description: Открыть GUI выбора цвета или установить цвет игроку (админ)
+    usage: /colornick [игрок] [цвет]
+  setcolornick:
+    description: Установить цвет конкретному игроку (только админ)
+    usage: /setcolornick <игрок> <цвет>
+    permission: colornick.admin
+  unlockcolornick:
+    description: Снять ограничение на изменение цвета для игрока (только админ)
+    usage: /unlockcolornick <игрок>
+    permission: colornick.admin
+permissions:
+  colornick.admin:
+    description: Позволяет устанавливать цвета другим игрокам
+    default: op

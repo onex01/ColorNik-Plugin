@@ -1,0 +1,33 @@
+# Файл локализации для ColorNickPlugin
+# Этот файл будет создан автоматически при первом запуске плагина
+# Вы можете редактировать сообщения здесь
+
+# GUI
+gui-title: "Выберите цвет ника"
+
+# Сообщения об ошибках
+console-only-players: "Эта команда доступна только игрокам!"
+color-locked-by-admin: "§cВаш цвет установлен администратором и не может быть изменен!"
+
+# Использование команд
+usage-command: "Использование: /colornick <игрок> <цвет>"
+available-colors: "Доступные цвета: red, blue, green, yellow, aqua, light_purple, gold, gray, white, reset"
+
+# Сообщения
+player-not-found: "Игрок не найден!"
+invalid-color: "Неверный цвет! Доступные цвета: red, blue, green, yellow, aqua, light_purple, gold, gray, white, reset"
+color-reset: "Цвет игрока %player% сброшен"
+your-color-reset: "Ваш цвет ника сброшен!"
+color-set: "Установлен цвет %color% для игрока %player%"
+your-color-changed: "Ваш цвет ника изменен на %color%!"
+
+# Названия цветов
+color-red: "Красный"
+color-blue: "Синий"
+color-green: "Зеленый"
+color-yellow: "Желтый"
+color-aqua: "Голубой"
+color-light_purple: "Розовый"
+color-gold: "Золотой"
+color-gray: "Серый"
+color-white: "Белый"
